@@ -10,8 +10,7 @@ import org.testng.annotations.Test;
 public class RestAssuredDemo {
 	
 	@Test(priority=1)
-	public void getUser() {
-		
+	public void getUser() {		
 		
 		when()
 			.get("https://jsonplaceholder.typicode.com/posts/1")
